@@ -1,11 +1,10 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.ts",
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
     "build": "tsc"
   },
   "keywords": [],
@@ -21,6 +20,6 @@
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2",
-    "@types/cors":"2.8.17"
+    "@types/cors": "2.8.17"
   }
 }
