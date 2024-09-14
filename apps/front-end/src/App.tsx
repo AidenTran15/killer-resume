@@ -4,7 +4,7 @@ function App() {
   const [data, setData] = useState('');
 
   useEffect(() => {
-    fetch('http://localhost:3000/')
+    fetch('https://killer-resume-api-tau.vercel.app')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
