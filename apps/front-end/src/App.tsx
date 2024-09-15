@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <h1 className='heading'>{config.appName}</h1>
-      <h3>{toTitleCase(data ?? "no data from server")}</h3>
+      <h3>{toTitleCase(data ?? "no data from serverr")}</h3>
     </>
   )
 }
