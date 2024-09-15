@@ -29,9 +29,6 @@ jobs:
       - name: Run build
         run: pnpm run --filter front-end build
 
-      - name: Run Integration Tests
-
       - name: Run Unit Tests
         run: pnpm run --filter front-end test:unit
 
-        
