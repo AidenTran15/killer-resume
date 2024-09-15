@@ -8,6 +8,7 @@ describe('toTitleCase', () => {
     const result = toTitleCase(input);
     expect(result).toBe('Hello World');
   });
+  
 
   // Test with mixed cases
   it('should handle input with mixed cases', () => {
